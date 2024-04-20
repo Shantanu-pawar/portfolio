@@ -166,6 +166,7 @@ header.shadow {
   font-weight: 400;
   text-align: justify;
 }
+
 .information {
   margin: 1rem 0 1.4rem;
 }
@@ -178,9 +179,10 @@ header.shadow {
   font-size: 22px;
 }
 .information .info-box span {
-  font-weight: 400;
+  font-weight: 20;
   margin-left: 1rem;
 }
+
 .skills-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -297,6 +299,7 @@ span {
 .services-box:hover a{
   color: #8b8a8f;
 }
+
 .portfolio-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, auto));
@@ -318,6 +321,8 @@ span {
   transform: scale(1.1);
   transition: 1s;
 }
+
+
 .contact-form {
   display: grid;
   place-items: center;
@@ -508,3 +513,15 @@ form textarea {
     margin-left: 25%;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
