@@ -158,9 +158,20 @@ header.shadow {
 }
  
 .about-img img {
-  width: 80%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 40%;
   border-radius: 0.5rem;
 }
+
+.about-img {
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+}
+
+
 .about-text p {
   font-size: var(--p-font);
   font-weight: 400;
@@ -466,10 +477,9 @@ form textarea {
   .about-container {
     grid-template-columns: 1fr;
   }
-  .about-img {
-    display: flex;
-    justify-content: center;
-  }
+
+
+
   .skills-container {
     grid-template-columns: 1fr;
   }
